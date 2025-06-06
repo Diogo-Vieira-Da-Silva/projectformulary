@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="html.css">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <div id = "form">
+    <h1>Cadastre-se</h1>
+    <div class= "div-main">
+    
+        <label for="nome">Nome</label> 
+        <input id="nome" type="text">
+        <div>
+            <div class = "div-main">
+        <label for="email">E-mail</label>
+        <input id="email" type="email">
+
+        </div>
+        <div class = "div-main">
+            <label for="cpf">CPF</label>
+            <input id="cpf" type= "text">
+            <div>
+                <div class="div-main">
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password">
+</div>
+<div class="div-main">
+    <label for="senha-repetida">Repita a senha</label>
+    <input id="senha-repetida" type="password">
+</div>
+<div>
+    <button onclick="enviaFormulario()">Enviar</button>
+</div>
+<div id="resposta"></div>
+</div>
+</body>
+<script src= "html.js" ></script> </script>
+</html>
